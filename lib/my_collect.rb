@@ -6,13 +6,3 @@ def my_collect(array)
     i += 1
   end
 end
-
-
-def main
-  array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-  my_collect(array) do |name|
-    puts name
-  end
-end
-
-main
